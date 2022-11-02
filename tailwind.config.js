@@ -12,7 +12,6 @@ module.exports = {
         'antiga': ['Antiga'],
         'montreal': ['PP Neue Montreal Book'],
         'montreal__medium': ['PP Neue Montreal Medium'],
-
       },
     },
   },
