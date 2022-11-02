@@ -1,26 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+     font-family: 'Antiga';
+     src: url('../fonts/antigaRegular.ttf');
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+     font-family: 'PP Neue Montreal Book';
+     src: url('../fonts/PPNeueMontreal-Book.otf');
+}
+@font-face {
+     font-family: 'PP Neue Montreal Medium';
+     src: url('../fonts/PPNeueMontreal-Medium.otf');
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+     font-family: 'PT Serif';
+     src: url('../fonts/PTSerif-Regular.ttf');
 }
