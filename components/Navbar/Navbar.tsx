@@ -16,7 +16,7 @@ export default function Navbar() {
      // }, [])
 
      return <section>
-          <nav className="absolute rotate-90 font-montreal__medium text-md font-normal cursor-pointer max-[425px]:top-[10%] max-[425px]:left-[80%]">
+          <nav className="absolute rotate-90 font-montreal__medium text-md font-normal cursor-pointer max-[420px]:top-[10%] max-[420px]:left-[77%]">
                <Link href="/work">WORK</Link>
                <Link href="/about" className="ml-4">ABOUT</Link>
           </nav>
