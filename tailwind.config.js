@@ -8,11 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'pt': ['PT Serif'],
         'antiga': ['Antiga'],
-        'montreal': ['PP Neue Montreal Book'],
         'montreal__medium': ['PP Neue Montreal Medium'],
-        'helvetica': ['HelveticaNeueCyr'],
         'graphik': ['Graphik LCG']
       },
     },
