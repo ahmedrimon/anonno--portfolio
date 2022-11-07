@@ -2,7 +2,7 @@ import Image from 'next/image';
 import area from '../../images/area.jpg';
 
 export default function Hero() {
-     return <section className="overflow-x-hidden">
+     return <section>
           <h1 className="font-antiga text-[16vw] font-normal flex justify-center items-center max-[767px]:text-[16vw]">WEB DEVELOPER</h1>
           <section className="pb-[2em]">
                <main className="flex">
