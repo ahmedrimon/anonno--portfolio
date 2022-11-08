@@ -12,10 +12,9 @@ export default function Screen() {
           gsap.to(".firstBox", {
                scrollTrigger: {
                     trigger: ".firstBox",
-                    toggleActions: "restart none none none",
+                    toggleActions: "restart pause none none",
                },
                x: 400,
-               rotaion: 360,
                duration: 3
           })
      }, [])
