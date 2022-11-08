@@ -1,19 +1,18 @@
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react"
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Screen() {
-     const el = useRef(null);
+     gsap.registerPlugin(ScrollTrigger);
+     const el = useRef();
 
      useEffect(() => {
           gsap.to(".third", {
-               scrollTrigger: {
-                    trigger: ".third"
-               },
                x: 400,
                rotation: 360,
-               duration: 3
+               duration: 3,
+               scrollTrigger: ".third",
+               markers: true
           });
      }, [])
 
