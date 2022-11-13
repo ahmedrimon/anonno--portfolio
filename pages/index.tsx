@@ -10,7 +10,8 @@ export default function Home() {
                <Navbar />
                <Hero />
           </div>
-          <Screen />
+          <div className="h-screen">
+               <Screen />
+          </div>
      </div>
 }
-// #F7ECDD
