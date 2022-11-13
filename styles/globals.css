@@ -8,10 +8,6 @@
      box-sizing: border-box;
      overflow-x: hidden;
 }
-body {
-     overscroll-behavior: none;
-     /* height: 100vh; */
-}
 
 @font-face {
      font-family: 'Antiga';
