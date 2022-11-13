@@ -10,7 +10,7 @@
 }
 body {
      overscroll-behavior: none;
-     height: 100vh;
+     /* height: 100vh; */
 }
 
 @font-face {
