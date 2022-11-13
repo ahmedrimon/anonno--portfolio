@@ -10,8 +10,6 @@ export default function Home() {
                <Navbar />
                <Hero />
           </div>
-          <div className="h-screen">
-               <Screen />
-          </div>
+          <Screen />
      </div>
 }
