@@ -10,7 +10,8 @@ module.exports = {
       fontFamily: {
         'antiga': ['Antiga'],
         'montreal__medium': ['PP Neue Montreal Medium'],
-        'graphik': ['Graphik LCG']
+        'graphik': ['Graphik LCG'],
+        'cardinal': ['Cardinal Fruit']
       },
     },
   },

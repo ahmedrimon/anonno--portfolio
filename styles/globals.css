@@ -23,3 +23,7 @@
      font-family: 'Graphik LCG';
      src: url('../fonts/GraphikLCG-Light.ttf');
 }
+@font-face {
+     font-family: 'Cardinal Fruit';
+     src: url('../fonts/CardinalFruitItalic.ttf');
+}
