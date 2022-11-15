@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import area from '../../images/area.jpg';
+import area from '../../images/area.webp';
 
 export default function Hero() {
      return <section>
