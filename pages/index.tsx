@@ -1,3 +1,4 @@
+import Design from "../components/Design/Design";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Screen from "../components/Screen/Screen";
@@ -11,5 +12,6 @@ export default function Home() {
                <Hero />
           </div>
           <Screen />
+          <Design />
      </div>
 }
