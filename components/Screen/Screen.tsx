@@ -12,7 +12,7 @@ export default function Screen() {
                     <h3 className="font-graphik font-bold text-[16px] leading-6 uppercase">First start Figma to sketch file and see what's the different file and structure uses. how it real life happens</h3>
                </div>
                <div className="flex justify-end w-[50%]">
-                    <Image src={prototype} alt="prototyping image" width={400} height={400} priority={true} />
+                    <Image src={prototype} alt="prototyping image" width={400} height={400} priority />
                </div>
           </section>
      </section>
