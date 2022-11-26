@@ -17,5 +17,6 @@ export default function Design() {
                     priority
                />
           </div>
+          {/* <img src="lcp-image.jpg" fetchpriority="high"></img> */}
      </section>
 }
