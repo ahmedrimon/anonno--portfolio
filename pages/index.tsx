@@ -1,4 +1,4 @@
-// import Asset from "../components/Asset/Asset";
+import Asset from "../components/Asset/Asset";
 import Design from "../components/Design/Design";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
@@ -14,6 +14,6 @@ export default function Home() {
           </div>
           <Screen />
           <Design />
-          {/* <Asset /> */}
+          <Asset />
      </div>
 }
