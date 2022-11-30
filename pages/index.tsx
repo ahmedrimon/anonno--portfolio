@@ -6,7 +6,6 @@ import Screen from "../components/Screen/Screen";
 
 export default function Home() {
 
-
      return <div>
           <div className="bg-[#F7ECDD]">
                <Navbar />
