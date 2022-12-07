@@ -27,3 +27,7 @@
      font-family: 'Cardinal Fruit';
      src: url('../fonts/CardinalFruitItalic.woff2');
 }
+@font-face {
+     font-family: 'PP Acma Light';
+     src: url('../fonts/PPAcma-Light.woff2');
+}

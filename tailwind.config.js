@@ -11,7 +11,8 @@ module.exports = {
         'antiga': ['Antiga'],
         'montreal__medium': ['PP Neue Montreal Medium'],
         'graphik': ['Graphik LCG'],
-        'cardinal': ['Cardinal Fruit']
+        'cardinal': ['Cardinal Fruit'],
+        'acma': ['PP Acma Light'],
       },
     },
   },
