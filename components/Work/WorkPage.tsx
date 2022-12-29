@@ -13,44 +13,53 @@ export default function Work() {
                </button>
           </div>
           <h2 className="font-acma font-normal text-[8vw] w-[30%]">Experiment Project</h2>
-          <div className="flex">
+          <p className="font-antiga text-[4em] ml-[0.4em]">01</p>
+          <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
                     src={icam}
                     alt="red picture first"
-                    width={500}
-                    height={500}
+                    width={400}
+                    height={400}
                     priority
                />
-               <Link className="font-antiga text-[3vw] text-red-500 ml-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
-               <Link className="font-antiga text-[3vw] text-red-500 mt-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
-               <p className="font-graphik font-normal text-[1vw]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
+               <div className="flex justify-center">
+                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+               </div>
           </div>
-          <div className="flex mt-[3em]">
+          <p className="font-antiga text-[4em] ml-[0.4em]">02</p>
+          <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
                     src={explore}
-                    alt="explore the site"
-                    width={500}
-                    height={500}
+                    alt="red picture first"
+                    width={400}
+                    height={400}
                     priority
                />
-               <Link className="font-antiga text-[3vw] text-red-500 ml-[2em]" href="https://react-explore.netlify.app/" target="__blank">LIVE LINK</Link>
-               <Link className="font-antiga text-[3vw] text-red-500 mt-[2em]" href="https://github.com/ahmedrimon/react__explore" target="__blank">RAW CODE</Link>
-               <p className="font-graphik font-normal text-[1vw]">Explore a little bit space between pages</p>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
+               <div className="flex justify-center">
+                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+               </div>
           </div>
-          <div className="flex mt-[3em]">
+          <p className="font-antiga text-[4em] ml-[0.4em]">03</p>
+          <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
                     src={portfolio}
                     alt="red picture first"
-                    width={500}
-                    height={500}
+                    width={400}
+                    height={400}
                     priority
                />
-               <Link className="font-antiga text-[3vw] text-red-500 ml-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
-               <Link className="font-antiga text-[3vw] text-red-500 mt-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
-               <p className="font-graphik font-normal text-[1vw]">This portfolio is just maid me to think to the organize things</p>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
+               <div className="flex justify-center">
+                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+               </div>
           </div>
           <div className="mt-[6em]">
                <FooterLast />
