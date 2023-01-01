@@ -42,7 +42,7 @@ export default function Work() {
                <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
                <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
                <div className="flex justify-center">
-                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">React explore to do different things</p>
                </div>
           </div>
           <p className="font-antiga text-[4em] ml-[0.4em]">03</p>
@@ -58,10 +58,10 @@ export default function Work() {
                <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
                <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
                <div className="flex justify-center">
-                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">To simple Ecommerce portray, and follow through the ideas are moving</p>
+                    <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">Progress that happen, just continue the thing and establish idea</p>
                </div>
           </div>
-          <div className="mt-[6em]">
+          <div className="mt-[6em] max-[520px]:mt-[1.5em] min-[1280px]:mt-[1em]">
                <FooterLast />
           </div>
      </section>
