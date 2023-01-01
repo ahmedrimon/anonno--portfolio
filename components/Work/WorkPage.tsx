@@ -55,8 +55,8 @@ export default function Work() {
                     height={400}
                     priority
                />
-               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
-               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://iftekhar-portfolio.netlify.app/" target="__blank">LIVE LINK</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/anonno--portfolio" target="__blank">RAW CODE</Link>
                <div className="flex justify-center">
                     <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">Progress that happen, just continue the thing and establish idea</p>
                </div>
