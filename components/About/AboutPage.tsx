@@ -15,6 +15,6 @@ export default function About() {
                     height={100}
                />
           </div>
-          <p className="font-acma text-black text-[1.5vw] w-[40%] mt-[8rem] ml-[32rem] max-[520px]:ml-[3rem] max-[520px]:text-[1.5rem]">I Work at least 2.2+ year almost, some work i done personally. I love making website which is more visually stunning</p>
+          <p className="font-acma text-black text-[1.5vw] w-[40%] mt-[8rem] ml-[32rem] max-[520px]:ml-[3rem] max-[520px]:text-[1.5rem]">I Work at least 2.5+ year almost, some work i done personally. I love making website which is more visually stunning</p>
      </section>
 }
