@@ -39,8 +39,8 @@ export default function Work() {
                     height={400}
                     priority
                />
-               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://icam-distribution.netlify.app" target="__blank">LIVE LINK</Link>
-               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/icam-distribution" target="__blank">RAW CODE</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[1.5em] max-[767px]:text-[2em]" href="https://react-explore.netlify.app/" target="__blank">LIVE LINK</Link>
+               <Link className="font-antiga text-[3em] text-red-500 ml-[2em] max-[767px]:text-[2em]" href="https://github.com/ahmedrimon/react__explore" target="__blank">RAW CODE</Link>
                <div className="flex justify-center">
                     <p className="font-graphik font-normal text-[1em] mt-[1em] w-[70%]">React explore to do different things</p>
                </div>
