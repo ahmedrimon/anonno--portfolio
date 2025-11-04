@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* overflow-x: hidden; */
+}
+
+@font-face {
+     font-family: 'Antiga';
+     src: url('../fonts/antigaRegular.woff2');
+}
+
+@font-face {
+     font-family: 'PP Neue Montreal Medium';
+     src: url('../fonts/PPNeueMontreal-Medium.woff2');
+}
+
+@font-face {
+     font-family: 'Graphik LCG';
+     src: url('../fonts/GraphikLCG-Light.woff2');
+}
+@font-face {
+     font-family: 'Cardinal Fruit';
+     src: url('../fonts/CardinalFruitItalic.woff2');
+}
+@font-face {
+     font-family: 'PP Acma Light';
+     src: url('../fonts/PPAcma-Light.woff2');
+}
