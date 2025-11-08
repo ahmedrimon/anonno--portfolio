@@ -3,17 +3,17 @@ import area from '../../images/area.webp';
 
 export default function Hero() {
      return <section>
-          <h1 className="font-antiga text-[16vw] font-normal flex justify-center items-center max-[767px]:text-[16vw]">REACT DEVELOPER</h1>
-          <section className="pb-[2em] pt-[8rem] max-[767px]:mt-[2em]">
+          <h1 className="font-antiga text-6xl p-8 sm:text-9xl sm:p-20 md:text-[11rem] font-normal flex justify-center items-center">REACT DEVELOPER</h1>
+          <section className="sm:pt-1 2xl:pt-[8rem] max-[767px]:mt-[2em]">
                <main className="flex">
-                    <div className="w-[30%] max-[1280px]:w-[40%] max-[1023px]:w-[40%] max-[767px]:w-[50%]">
-                         <h3 className="font-graphik tracking-wide font-bold ml-[14em] text-[14px] leading-5 max-[1023px]:ml-[2em] max-[767px]:ml-[2em]">EXPERIENCE SOMETHING THAT NOT EXCUSE TO BE BETTER EXPERIMENT</h3>
-                         <h3 className="font-graphik tracking-wide font-bold ml-[14em] text-[14px] leading-6 mt-5 max-[1023px]:ml-[2em] max-[767px]:ml-[2em]">WORKING THIS ENVIROMENT AROUND TWO YEARS, SO JUST WORKING TOWARDS PATH. VISUAL HIERARCHY IS MOST IMPORTANT FACTOR</h3>
+                    <div className="w-[100%]">
+                         <h3 className="font-graphik tracking-wide font-bold ml-12 text-[14px] leading-5">EXPERIENCE SOMETHING THAT NOT EXCUSE TO BE BETTER EXPERIMENT</h3>
+                         <h3 className="font-graphik tracking-wide font-bold ml-12 mb-12 text-[14px] leading-5 mt-2">WORKING THIS ENVIRONMENT AROUND TWO YEARS, SO JUST WORKING TOWARDS PATH. VISUAL HIERARCHY IS MOST IMPORTANT FACTOR</h3>
                     </div>
-                    <div className="w-[30%] max-[1280px]:w-[30%] max-[1023px]:w-[30%] max-[767px]:w-[40%]">
-                         <h3 className="font-graphik tracking-wide font-bold ml-[4em] text-[14px] leading-6 mt-[4em] max-[767px]:ml-[1em]">THE JOURNEY THAT I TOOK ITS POWERFUL LOTS OF WAY. SO TURN AROUND THE PLACE JUST MOVING ON A FREE FOLKLORE. WHERE COMFORTABLE ANY TOUCH AND ANY IDEA. USED TO BETTER EXPERIENCE AND PERFORMANCE ALSO VISIBILITIES. DRIVE THROUGH ART PHASE CHALLANGES FROM EVERY ASPECT</h3>
+                    <div className="hidden w-[30%] md:w-[45%] max-[1280px]:w-[30%] max-[1023px]:w-[30%] max-[767px]:w-[40%]">
+                         <h3 className="font-graphik tracking-wide font-bold ml-[4em] md:ml-[12em] text-[14px] leading-6 mt-[4em] max-[767px]:ml-[1em]">THE JOURNEY THAT I TOOK ITS POWERFUL LOTS OF WAY. SO TURN AROUND THE PLACE JUST MOVING ON A FREE FOLKLORE. WHERE COMFORTABLE ANY TOUCH AND ANY IDEA. USED TO BETTER EXPERIENCE AND PERFORMANCE ALSO VISIBILITIES. DRIVE THROUGH ART PHASE CHALLANGES FROM EVERY ASPECT</h3>
                     </div>
-                    <div className="w-[10%] ml-[9em] max-[1280px]:w-[20%] max-[1280px]:ml-[4em] max-[1023px]:w-[30%] max-[767px]:hidden">
+                    <div className="hidden w-[10%] ml-[9em] sm:hidden md:hidden max-[1280px]:w-[20%] max-[1280px]:ml-[4em] max-[1023px]:w-[30%]">
                          <Image
                               src={area}
                               alt="Picture of the art"

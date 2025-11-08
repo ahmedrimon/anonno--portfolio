@@ -4,9 +4,9 @@ import second from "../../images/second.jpg";
 import three from "../../images/three.jpg";
 
 export default function Asset() {
-     return <section className="h-[180vh] bg-[#DCFE4A]">
+     return <section className="h-[290vh] sm:h-[256vh] lg:h-[200vh] bg-[#DCFE4A]">
           <h1 className="font-antiga font-normal text-[11vw] ml-5">ASSET BUILDING</h1>
-          <main className="flex justify-start ml-2 mr-2 max-[767px]:block">
+          <main className="flex justify-start ml-2 mr-2 mt-5 max-[767px]:block">
                <div className="border-2 border-orange-500 rounded-full ml-4 p-2 w-[10%] flex justify-center max-[767px]:w-[70%] max-[767px]:mx-auto">
                     <p className="font-graphik font-bold text-[1rem]">WebP</p>
                </div>
@@ -57,7 +57,7 @@ export default function Asset() {
                     priority
                />
           </div>
-          <div className="absolute top-[510%] left-[87%] ml-6 mr-5 mt-6 max-[767px]:hidden">
+          <div className="absolute top-[510%] lg:top-[540%] left-[87%] ml-6 mr-5 mt-6 max-[767px]:hidden">
                <Image
                     className="rounded-full"
                     src={three}

@@ -10,7 +10,7 @@ import LenisScroll from "../Hooks/LenisScroll";
 export default function Home() {
 
      return <div>
-          <LenisScroll></LenisScroll>
+          {/* <LenisScroll></LenisScroll> */}
           <div className="bg-[#F7ECDD]">
                <Navbar />
                <Hero />
