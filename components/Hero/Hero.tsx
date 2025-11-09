@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import area from '../../images/area.webp';
+
 
 export default function Hero() {
      return <section>
@@ -15,7 +15,7 @@ export default function Hero() {
                     </div>
                     <div className="hidden w-[10%] ml-[9em] sm:hidden md:hidden max-[1280px]:w-[20%] max-[1280px]:ml-[4em] max-[1023px]:w-[30%]">
                          <Image
-                              src={area}
+                              src="/area.webp"
                               alt="Picture of the art"
                               width={200}
                               height={300}
