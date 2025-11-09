@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import icam from "../../images/Icam-four.png";
-import explore from "../../images/React-Explore.png";
-import portfolio from "../../images/Portfolio.png";
+// import icam from "../../images/Icam-four.png";
+// import explore from "../../images/React-Explore.png";
+// import portfolio from "../../images/Portfolio.png";
 import FooterLast from "../FooterLast/FooterLast";
 
 export default function Work() {
@@ -17,7 +17,7 @@ export default function Work() {
           <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
-                    src={icam}
+                    src="/Icam-four.png"
                     alt="red picture first"
                     width={200}
                     height={200}
@@ -33,7 +33,7 @@ export default function Work() {
           <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
-                    src={explore}
+                    src="/React-Explore.png"
                     alt="red picture first"
                     width={200}
                     height={200}
@@ -49,7 +49,7 @@ export default function Work() {
           <div className="min-[767px]:flex">
                <Image
                     className="rounded-full ml-[2em]"
-                    src={portfolio}
+                    src="/Portfolio.png"
                     alt="red picture first"
                     width={200}
                     height={200}

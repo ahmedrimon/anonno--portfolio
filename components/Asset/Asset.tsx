@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import first from "../../images/first.jpg";
-import second from "../../images/second.jpg";
-import three from "../../images/three.jpg";
+// import first from "../../images/first.jpg";
+// import second from "../../images/second.jpg";
+// import three from "../../images/three.jpg";
 
 export default function Asset() {
      return <section className="h-[290vh] sm:h-[256vh] lg:h-[200vh] bg-[#DCFE4A]">
@@ -50,7 +50,7 @@ export default function Asset() {
           <div className="absolute top-[560%] ml-6 mt-6 max-[767px]:hidden">
                <Image
                     className="rounded-full"
-                    src={first}
+                    src="/first.jpg"
                     alt="red picture first"
                     width={150}
                     height={200}
@@ -60,7 +60,7 @@ export default function Asset() {
           <div className="absolute top-[510%] lg:top-[540%] left-[87%] ml-6 mr-5 mt-6 max-[767px]:hidden">
                <Image
                     className="rounded-full"
-                    src={three}
+                    src="/three.jpg"
                     alt="red picture first"
                     width={250}
                     height={200}

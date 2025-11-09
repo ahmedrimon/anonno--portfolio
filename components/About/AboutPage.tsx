@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import own from "../../images/anonnoPicture.jpg";
 import Link from 'next/link';
 
 export default function About() {
@@ -16,7 +15,7 @@ export default function About() {
                     <p className="font-antiga text-black text-[3vw] uppercase w-[20%] mt-[5rem] ml-[5rem] max-[520px]:hidden">I'm here for just work above and beyond ideas</p>
                     <Image
                          className="ml-16 rounded-md max-[520px]:mt-[4rem]"
-                         src={own}
+                         src="/anonnoPicture.jpg"
                          alt="owner of this website"
                          width={200}
                          height={200}

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import r from '../../images/r.webp';
+// import r from '../../images/r.webp';
 
 export default function Design() {
      return <section className="text-white bg-[#0F1E34] sm:h-[100vh] lg:h-[165vh] h-[80vh]">
@@ -10,7 +10,7 @@ export default function Design() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="mt-[4rem]">
                <Image
                     // className="flex justify-center items-center"
-                    src={r}
+                    src="/r.webp"
                     alt="Picture of the art"
                     width={933}
                     height={466}
