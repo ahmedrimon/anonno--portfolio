@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero() {
      return <section>
-          <h1 className="font-antiga text-6xl p-8 sm:text-9xl sm:p-20 md:text-[11rem] font-normal flex justify-center items-center">REACT DEVELOPER</h1>
+          <h1 className="font-antiga text-6xl p-8 sm:text-9xl sm:p-20 md:text-[11rem] font-normal flex justify-center items-center"><span className='text-[#58c4dc]'>REACT</span> DEVELOPER</h1>
           <section className="sm:pt-1 2xl:pt-[8rem] max-[767px]:mt-[2em]">
                <main className="flex">
                     <div className="w-[100%]">
