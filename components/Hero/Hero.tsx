@@ -22,6 +22,9 @@ export default function Hero() {
                               priority
                          />
                     </div>
+                    <div>
+                         <h1>New Div for Check</h1>
+                    </div>
                </main>
           </section>
      </section>
